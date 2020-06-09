@@ -35,7 +35,7 @@ const NavLeft = (props) => {
     <div>
       <div className="logo">
         <img src="/assets/logo-ant.svg" alt="logo" />
-        <h3> Hooks</h3>
+        <h1> Hooks</h1>
       </div>
       <Menu mode="vertical" theme="dark" onClick={handleClick}>
         {renderMenu(MenuConfig)}

@@ -9,7 +9,6 @@ export const NumContext = createContext();
 
 const App = (props) => {
   const [state, setState] = useState({ name: "首页" });
-  console.log(state.name);
   return (
     <Row className="container">
       <NumContext.Provider value={{ state, setState }}>
