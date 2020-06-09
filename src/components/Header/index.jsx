@@ -41,9 +41,9 @@ const Herder = (props) => {
       })
       .catch((error) => {});
   };
-  // useEffect(() => {
-  //   getApi();
-  // }, []);
+  useEffect(() => {
+    getApi();
+  }, []);
   return (
     <div className="header">
       <Row className="header-top">
